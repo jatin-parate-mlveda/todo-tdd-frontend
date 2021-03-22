@@ -37,6 +37,7 @@
     "react-toastify": "^5.1.1",
     "reactstrap": "^8.0.0",
     "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.9",
     "redux-thunk": "^2.3.0",
     "source-map-explorer": "^2.5.2",
     "universal-cookie": "^4.0.2",
@@ -65,7 +66,6 @@
   },
   "devDependencies": {
     "@types/react": "^17.0.0",
-    "@types/react-dom": "^17.0.0",
-    "redux-devtools-extension": "^2.13.9"
+    "@types/react-dom": "^17.0.0"
   }
 }
