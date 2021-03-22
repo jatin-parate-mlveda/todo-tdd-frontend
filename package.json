@@ -44,12 +44,10 @@
   },
   "scripts": {
     "analyze": "source-map-explorer 'build/static/js/*.js'",
-    "start-script": "sh -ac '. ./.env.${REACT_APP_ENV}; react-scripts start'",
-    "start:local": "REACT_APP_ENV=local npm run start-script",
-    "start": "REACT_APP_ENV=production npm run start-script",
-    "build-script": "sh -ac '. ./env.${REACT_APP_ENV}; react-scripts build'",
-    "build": "REACT_APP_ENV=production npm run build-script",
-    "build:local": "REACT_APP_ENV=local npm run build-script",
+    "start:local": "sh -ac '. ./.env.local; npm run start'",
+    "start": "react-scripts start",
+    "build:local": "sh -ac '. ./env.local; npm run build'",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
