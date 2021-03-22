@@ -1,0 +1,10 @@
+.centeredDivOnPage {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+
+	& > div {
+		min-width: 360px;
+	}
+}
